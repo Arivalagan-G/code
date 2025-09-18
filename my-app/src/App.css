@@ -1,0 +1,151 @@
+body {
+  background: #f4f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  max-width: 500px;
+  width: 100%;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+.form-check-label {
+  margin-left: 6px;
+}
+
+.text-danger {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.btn {
+  min-width: 100px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #2575fc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1a5ccc;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.quick-fill {
+  margin-top: 10px;
+}
+
+.quick-fill button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quick-fill button:hover {
+  background-color: #218838;
+}
+
+/* .summary {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #ffffff;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+} */
+
+.summary h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #2575fc;
+}
+
+.summary p {
+  margin: 6px 0;
+  font-size: 1rem;
+}
+
+.summary strong {
+  color: #000;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
